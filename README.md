@@ -1,45 +1,90 @@
-# Gmail_Replica
-Created a replica of a GMail web app using Python and Javascript and fit into Django, Bootsrap, and VSCode
+# Email Client
 
-Gmail Replica
-This is an email client that I named Gmail Replica. The system makes API calls to send and receive emails built using Django 4, HTML 5, CSS 3, Bootstrap 5 and fundamental JavaScript.
+This is an email client that makes API calls to send and receive emails built using **Django 4**, **HTML 5**, **CSS 3**, **Bootstrap 5** and vanilla **JavaScript**.
+
+![plot](https://github.com/BobsProgrammingAcademy/Email-Client/blob/main/static/images/email_client.png?raw=true)
 
 
+## Table of Contents 
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Run the application](#run-the-application)
+- [View the application](#view-the-application)
+- [Note](#note)
+- [Copyright and License](#copyright-and-license)
 
-Prerequisites
+
+### Prerequisites
+
 Install the following prerequisites:
-Visual Studio Code
-Python 3.8-3.11
-On Visual Studio Code, go to extensions and install and enable the “Python” extension, once in the code terminal.
-Django 
+
+1. [Python 3.8-3.11](https://www.python.org/downloads/)
+<br> This project uses **Django v4.2.4**. For Django to work, you must have a correct Python version installed on your machine. More information [here](https://django.readthedocs.io/en/stable/faq/install.html).
+2. [Visual Studio Code](https://code.visualstudio.com/download)
 
 
-Installation
-1. Create a virtual environment
-After downloading the code onto VSCode, go to File -> Terminal -> New Terminal
-From the root directory run:
+### Installation
+
+#### 1. Create a virtual environment
+
+From the **root** directory run:
+
+```bash
 python -m venv venv
-2. Activate the virtual environment
-From the root directory run:
+```
+
+#### 2. Activate the virtual environment
+
+From the **root** directory run:
+
 On macOS:
+
+```bash
 source venv/bin/activate
+```
+
 On Windows:
+
+```bash
 venv\scripts\activate
-3. Install required dependencies
-From the root directory run:
+```
+
+#### 3. Install required dependencies
+
+From the **root** directory run:
+
+```bash
 pip install -r requirements.txt
-4. Run migrations
-From the root directory run:
+```
+
+#### 4. Run migrations
+
+From the **root** directory run:
+
+```bash
 python manage.py makemigrations
+```
+```bash
 python manage.py migrate
-Run the application
-From the root directory run:
+```
+
+### Run the application
+
+From the **root** directory run:
+
+```bash
 python manage.py runserver
-View the application
+```
+
+### View the application
+
 Go to http://127.0.0.1:8000/ to view the application.
-Note
-Just remember to send an email to an email address that already exists in this GMAIL Replica database.
-Copyright and License
-Copyright © 2022 Abdullah Muhammad. Code released by MIT license and allowed public.
+
+### Note
+
+Just remember to send an email to an email address that already exists in the database.
 
 
+### Copyright and License
+
+Copyright © 2022 Bob's Programming Academy. Code released under the MIT license.
