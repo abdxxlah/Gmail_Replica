@@ -1,17 +1,10 @@
-# Email Client
+# Gmail Replica
 
-This is an email client that makes API calls to send and receive emails built using **Django 4**, **HTML 5**, **CSS 3**, **Bootstrap 5** and vanilla **JavaScript**.
+This is an email client that I named Gmail Replica. The system makes API calls to send and receive emails built using **Django 4**, **HTML 5**, **CSS 3**, **Bootstrap 5** and **JavaScript**.
+
 
 ![plot](https://github.com/BobsProgrammingAcademy/Email-Client/blob/main/static/images/email_client.png?raw=true)
 
-
-## Table of Contents 
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Run the application](#run-the-application)
-- [View the application](#view-the-application)
-- [Note](#note)
-- [Copyright and License](#copyright-and-license)
 
 
 ### Prerequisites
