@@ -3,7 +3,10 @@
 This is an email client that I named Gmail Replica. The system makes API calls to send and receive emails built using **Django 4**, **HTML 5**, **CSS 3**, **Bootstrap 5** and **JavaScript**.
 
 
-![plot](https://github.com/BobsProgrammingAcademy/Email-Client/blob/main/static/images/email_client.png?raw=true)
+
+![plot](https://github.com/abdxxlah/Gmail_Replica/blob/main/static/images/Gmail_Replica_SS.png?raw=true)
+![plot](https://github.com/abdxxlah/Gmail_Replica/blob/main/static/images/Gmail_2.png?raw=true) 
+![plot](https://github.com/abdxxlah/Gmail_Replica/blob/main/static/images/Gmail_3.png?raw=true) 
 
 
 
@@ -11,15 +14,19 @@ This is an email client that I named Gmail Replica. The system makes API calls t
 
 Install the following prerequisites:
 
-1. [Python 3.8-3.11](https://www.python.org/downloads/)
-<br> This project uses **Django v4.2.4**. For Django to work, you must have a correct Python version installed on your machine. More information [here](https://django.readthedocs.io/en/stable/faq/install.html).
-2. [Visual Studio Code](https://code.visualstudio.com/download)
+1. [Visual Studio Code](https://code.visualstudio.com/download)
+<br> On Visual Studio Code, go to extensions and install and enable the “Python” extension, once in the code terminal. </br>
+3. [Python 3.8-3.11](https://www.python.org/downloads/)
+4. [Django](https://django.readthedocs.io/en/stable/faq/install.html)
+
 
 
 ### Installation
 
 #### 1. Create a virtual environment
 
+After downloading the code onto VSCode, go to File -> Terminal -> New Terminal
+<br></br>
 From the **root** directory run:
 
 ```bash
@@ -73,11 +80,7 @@ python manage.py runserver
 
 Go to http://127.0.0.1:8000/ to view the application.
 
-### Note
-
-Just remember to send an email to an email address that already exists in the database.
-
 
 ### Copyright and License
 
-Copyright © 2022 Bob's Programming Academy. Code released under the MIT license.
+Copyright © 2022 Abdullah Muhammad. Code released under the MIT license.
